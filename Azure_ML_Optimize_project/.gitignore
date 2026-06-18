@@ -1,0 +1,44 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.optimize
+
+# Azure ML
+.aml/
+.azureml/
+
+# Logs
+*.log
+
+# Artifacts
+artifacts/*
+!artifacts/.gitkeep
+
+# Data
+data/*.csv
+data/*.xlsx
+!data/sample_*
+
+# Model files
+*.pkl
+*.joblib
+outputs/*

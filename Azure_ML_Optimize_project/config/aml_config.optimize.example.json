@@ -1,0 +1,12 @@
+{
+  "subscription_id": "your-subscription-id",
+  "resource_group": "your-resource-group",
+  "workspace_name": "your-workspace-name",
+  "workspace_region": "eastus",
+  "compute_target": "optimize-compute",
+  "compute_vm_size": "Standard_D2s_v3",
+  "compute_min_nodes": 0,
+  "compute_max_nodes": 4,
+  "max_core_count": 4,
+  "idle_seconds_before_scaledown": 300
+}
