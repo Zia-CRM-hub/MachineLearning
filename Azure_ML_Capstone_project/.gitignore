@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.python-version
+.env
+.DS_Store
+
+# Azure ML local artifacts
+artifacts/
+outputs/
+logs/

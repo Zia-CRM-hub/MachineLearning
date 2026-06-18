@@ -7,12 +7,3 @@ pandas==2.2.2
 scikit-learn==1.5.1
 joblib==1.4.2
 requests==2.32.3
-azureml-core==1.57.0
-azureml-train-automl==1.57.0
-azureml-pipeline==1.57.0
-azureml-pipeline-steps==1.57.0
-azureml-defaults==1.57.0
-pandas==2.2.2
-scikit-learn==1.5.1
-joblib==1.4.2
-requests==2.32.3

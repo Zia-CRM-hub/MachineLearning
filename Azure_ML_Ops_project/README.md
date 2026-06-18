@@ -34,7 +34,9 @@ flowchart LR
 - [requirements.txt](requirements.txt)
 - [LAB_CHECKLIST.md](LAB_CHECKLIST.md)
 - [docs/UDACITY_LOGGING_SWAGGER_DOCS.md](docs/UDACITY_LOGGING_SWAGGER_DOCS.md)
-- [sample_data/sample_request.json](sample_data/sample_request.json)
+- [sample_data/](sample_data/)
+  - [sample_request.json](sample_data/sample_request.json) - Example endpoint request
+  - [README.md](sample_data/README.md) - Sample data format and usage guide
 - [src/aml_utils.py](src/aml_utils.py)
 - [src/automl_experiment.py](src/automl_experiment.py)
 - [src/deploy_best_model.py](src/deploy_best_model.py)
@@ -48,6 +50,22 @@ flowchart LR
 - [starter_files/logs.py](starter_files/logs.py)
 - [starter_files/swagger/serve.py](starter_files/swagger/serve.py)
 - [starter_files/swagger/swagger.sh](starter_files/swagger/swagger.sh)
+
+## Sample Data & Testing
+
+See [sample_data/README.md](sample_data/README.md) for comprehensive documentation on:
+- **Dataset format**: Bank Marketing dataset features and their meanings
+- **Sample request format**: JSON structure expected by the endpoint
+- **Feature descriptions**: Detailed explanation of each of the 16 features
+- **Response format**: Expected endpoint output (prediction + probability)
+- **Testing examples**: Code samples for sending requests and interpreting responses
+- **Error handling**: What to do if requests fail
+
+Quick example:
+```bash
+# Test deployed endpoint with sample data
+python src/consume_endpoint.py --service-name bankmarketing-service --input-json sample_data/sample_request.json
+```
 
 ## Setup
 Python requirement:
